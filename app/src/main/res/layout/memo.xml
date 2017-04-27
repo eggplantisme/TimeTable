@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_weight="1"
+            android:background="#FCFAEF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#686A74" />
+
+        <TableRow android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="课程名称："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#597AA3" />
+
+        <TableRow android:layout_weight="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="课程信息："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#597AA3" />
+
+        <TableRow android:layout_weight="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="课程作业："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ddl"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#686A74" />
+
+        <TableRow
+            android:layout_weight="1"
+            android:background="#FCFAEF"></TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#686A74" />
+
+        <TableRow android:layout_weight="1">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="作业截止时间："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/endDateTime"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#686A74" />
+
+        <TableRow android:layout_weight="2"
+            android:gravity="bottom"
+            android:background="#FCFAEF">
+            <Button android:text="开启定时功能"
+                android:id="@+id/timer"
+                android:layout_width="0dp"
+                android:background="#F7E2CD"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:background="#FCFAEF">
+
+            <Button
+                android:id="@+id/sure"
+                android:layout_width="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="#F7E2CD"
+                android:text="确定"
+                android:textColor="#E67471"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="#F7E2CD"
+                android:text="编辑"
+                android:textColor="#E67471"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="#F7E2CD"
+                android:text="删除"
+                android:textColor="#E67471"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
