@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.timetable.MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Course Schedule"
+        android:textSize="@dimen/title"
+        android:textColor="@color/title"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/title_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@color/week_day">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/white"
+                style="@style/day" />
+
+            <TextView
+                style="@style/day"
+                android:text="周一" />
+
+            <TextView
+                style="@style/day"
+                android:text="周二" />
+
+            <TextView
+                style="@style/day"
+                android:text="周三" />
+
+            <TextView
+                style="@style/day"
+                android:text="周四" />
+
+            <TextView
+                style="@style/day"
+                android:text="周五" />
+
+            <TextView
+                style="@style/day"
+                android:text="周六" />
+
+            <TextView
+                style="@style/day"
+                android:text="周日" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/button">
+                    <Button
+                        android:id="@+id/_1"
+                        style="@style/course_number"
+                        android:text="1"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_2"
+                        style="@style/course_number"
+                        android:text="2"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_3"
+                        style="@style/course_number"
+                        android:text="3"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_4"
+                        style="@style/course_number"
+                        android:text="4"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_5"
+                        style="@style/course_number"
+                        android:text="5"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_6"
+                        style="@style/course_number"
+                        android:text="6"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_7"
+                        style="@style/course_number"
+                        android:text="7"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_8"
+                        style="@style/course_number"
+                        android:text="8"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_9"
+                        style="@style/course_number"
+                        android:text="9"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_10"
+                        style="@style/course_number"
+                        android:text="10"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_11"
+                        style="@style/course_number"
+                        android:text="11"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_12"
+                        style="@style/course_number"
+                        android:text="12"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_13"
+                        style="@style/course_number"
+                        android:text="13"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_14"
+                        style="@style/course_number"
+                        android:text="14"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_15"
+                        style="@style/course_number"
+                        android:text="15"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#686A74" />
+                    <Button
+                        android:id="@+id/_16"
+                        style="@style/course_number"
+                        android:text="16"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/course"
+                    android:layout_width="0dp"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:background="#FFFFFF">
+                    <RelativeLayout
+                        android:id="@+id/mon"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/tue"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/wed"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/thr"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/fri"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/sat"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/sun"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
