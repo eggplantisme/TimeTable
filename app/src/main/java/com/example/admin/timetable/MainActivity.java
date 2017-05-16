@@ -19,7 +19,10 @@ import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
+<<<<<<< HEAD
 import android.view.Window;
+=======
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -33,7 +36,10 @@ public class MainActivity extends AppCompatActivity {
     public Handler handler;
     static public DataBase dataBase;
     static public Vibrator vibrator;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

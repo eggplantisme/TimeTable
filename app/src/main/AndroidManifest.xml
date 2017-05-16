@@ -5,17 +5,27 @@
     <uses-sdk android:minSdkVersion="22"/>
     <application
         android:allowBackup="true"
+<<<<<<< HEAD
         android:icon="@drawable/logo"
+=======
+        android:icon="@mipmap/ic_launcher"
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <activity
+<<<<<<< HEAD
             android:name=".WelcomeActivity"
+=======
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+<<<<<<< HEAD
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -27,6 +37,10 @@
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
+=======
+
+                <category android:name="android.intent.category.LAUNCHER" />
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
             </intent-filter>
         </activity>
         <activity
@@ -34,6 +48,10 @@
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -42,6 +60,10 @@
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -51,6 +73,10 @@
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
