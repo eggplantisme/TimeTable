@@ -1,5 +1,13 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Block</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">Block</string>
+=======
+    <string name="app_name">TimeTable</string>
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     <string name="action_settings">Settings</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>

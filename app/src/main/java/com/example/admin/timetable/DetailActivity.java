@@ -5,7 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.database.sqlite.SQLiteDatabase;
+<<<<<<< HEAD
 import android.graphics.Bitmap;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
@@ -16,7 +19,10 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+<<<<<<< HEAD
 import android.widget.ImageView;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,7 +41,10 @@ public class DetailActivity extends AppCompatActivity {
     TextView ddl;
     TextView endTime;
     Button timer;
+<<<<<<< HEAD
     ImageView lamp;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +61,11 @@ public class DetailActivity extends AppCompatActivity {
         ddl = (TextView)findViewById(R.id.ddl);
         endTime = (TextView)findViewById(R.id.endDateTime);
 
+<<<<<<< HEAD
         lamp = (ImageView) findViewById(R.id.lamp);
+=======
+
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
 
 
         sure.setOnClickListener(new View.OnClickListener() {
@@ -147,11 +160,14 @@ public class DetailActivity extends AppCompatActivity {
                                 + "课程资料：" + course.getEmail_ftp() + "\n"
                                 + "老师：" + course.getTeacher());
                         ddl.setText(course.getDdl());
+<<<<<<< HEAD
                         int tag = course.getLamp();
                         if (tag == 0) lamp.setImageResource(R.mipmap.lamp1);
                         else if (tag == 1) lamp.setImageResource(R.mipmap.lamp2);
                         else lamp.setImageResource(R.mipmap.lamp3);
 
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                         endTime.setText(course.getDdl_time());
                         //获取timer服务需要的信息，名字，作业，时间
                         _ddl = ddl.getText().toString();

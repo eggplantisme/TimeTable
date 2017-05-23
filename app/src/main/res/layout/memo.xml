@@ -78,6 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
+<<<<<<< HEAD
                 android:layout_weight="4"
                 android:text="课程作业："
                 android:textSize="20sp" />
@@ -93,6 +94,16 @@
                 android:id="@+id/ddl"
                 android:layout_marginTop="15dp"
                 android:layout_weight="5"
+=======
+                android:layout_weight="1"
+                android:text="课程作业："
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ddl"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 android:background="@null"
                 android:textSize="18sp" />
 

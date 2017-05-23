@@ -15,7 +15,10 @@ public class Course implements Serializable {
     private String address;
     private String ddl;
     private String ddl_time;
+<<<<<<< HEAD
     private int lamp;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     Course() {
         name = "";
         teacher = "";
@@ -26,7 +29,10 @@ public class Course implements Serializable {
         address = "";
         ddl = "";
         ddl_time = "";
+<<<<<<< HEAD
         lamp = 0;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     }
 
     public int getEnd() {
@@ -61,10 +67,13 @@ public class Course implements Serializable {
         return week;
     }
 
+<<<<<<< HEAD
     public int getLamp() {
         return lamp;
     }
 
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     public void setAddress(String address) {
         this.address = address;
     }
@@ -104,8 +113,11 @@ public class Course implements Serializable {
     public void setDdl_time(String ddl_time) {
         this.ddl_time = ddl_time;
     }
+<<<<<<< HEAD
 
     public void setLamp(int lamp) {
         this.lamp = lamp;
     }
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
 }

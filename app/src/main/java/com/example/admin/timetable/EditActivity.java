@@ -13,7 +13,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+<<<<<<< HEAD
 import android.widget.ImageView;
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,8 +38,11 @@ public class EditActivity extends AppCompatActivity {
         final EditText address = (EditText)findViewById(R.id.address);
         final EditText ddl = (EditText)findViewById(R.id.ddl);
         final EditText ddl_time = (EditText)findViewById(R.id.endDateTime);
+<<<<<<< HEAD
         final ImageView lamp = (ImageView)findViewById(R.id.lamp);
         final int[] tag = {0};
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         //获取课程
         Bundle receiveBundle = getIntent().getExtras();
         final Course course = (Course)receiveBundle.getSerializable("course");
@@ -56,6 +62,7 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         //重要程度
         lamp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,6 +75,8 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         Button clear = (Button)findViewById(R.id.clear);
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,10 +100,13 @@ public class EditActivity extends AppCompatActivity {
                         address.setText(course.getAddress());
                         ddl.setText(course.getDdl());
                         ddl_time.setText(course.getDdl_time());
+<<<<<<< HEAD
                         tag[0] = course.getLamp();
                         if (tag[0] == 0) lamp.setImageResource(R.mipmap.lamp1);
                         else if (tag[0] == 1) lamp.setImageResource(R.mipmap.lamp2);
                         else lamp.setImageResource(R.mipmap.lamp3);
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 }
             }
         };
@@ -139,7 +151,10 @@ public class EditActivity extends AppCompatActivity {
                         course.setAddress(_address);
                         course.setDdl(_ddl);
                         course.setDdl_time(_ddl_time);
+<<<<<<< HEAD
                         course.setLamp(tag[0]);
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                         dataBase.update(course);
                         Intent intent = new Intent(EditActivity.this, MainActivity.class);
                         Bundle bundle = new Bundle();

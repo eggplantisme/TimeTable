@@ -19,7 +19,11 @@ public class DataBase extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String CREATE_TABLE = "CREATE TABLE if not exists " + TABLE_NAME
+<<<<<<< HEAD
                 + " (name TEXT, teacher TEXT, email_ftp TEXT, week int, start int, end int, address TEXT, ddl TEXT, ddl_time TEXT, lamp int)";
+=======
+                + " (name TEXT, teacher TEXT, email_ftp TEXT, week int, start int, end int, address TEXT, ddl TEXT, ddl_time TEXT)";
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         sqLiteDatabase.execSQL(CREATE_TABLE);
     }
     @Override
@@ -36,7 +40,10 @@ public class DataBase extends SQLiteOpenHelper {
         cv.put("address", course.getAddress());
         cv.put("ddl", course.getDdl());
         cv.put("ddl_time", course.getDdl_time());
+<<<<<<< HEAD
         cv.put("lamp", course.getLamp());
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         db.insert(TABLE_NAME, null, cv);
         db.close();
         Log.v("insert", "yes");
@@ -56,7 +63,10 @@ public class DataBase extends SQLiteOpenHelper {
                 course.setEnd(cursor.getInt(cursor.getColumnIndex("end")));
                 course.setWeek(cursor.getInt(cursor.getColumnIndex("week")));
                 course.setDdl_time(cursor.getString(cursor.getColumnIndex("ddl_time")));
+<<<<<<< HEAD
                 course.setLamp(cursor.getInt(cursor.getColumnIndex("lamp")));
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
             }
         }
         db.close();
@@ -81,7 +91,10 @@ public class DataBase extends SQLiteOpenHelper {
         cv.put("address", course.getAddress());
         cv.put("ddl", course.getDdl());
         cv.put("ddl_time", course.getDdl_time());
+<<<<<<< HEAD
         cv.put("lamp", course.getLamp());
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         String whereClause = "week = ? and start = ?";
         String[] whereArgs = {course.getWeek() + "", course.getStart() + ""};
         db.update(TABLE_NAME, cv, whereClause, whereArgs);

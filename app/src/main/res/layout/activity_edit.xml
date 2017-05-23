@@ -229,7 +229,11 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             android:layout_weight="4"
+=======
+            android:layout_weight="1"
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
             android:gravity="center"
             android:text="作业"
             android:textSize="16sp" />
@@ -238,13 +242,20 @@
             android:id="@+id/ddl"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             android:layout_weight="7"
             android:gravity="top"
+=======
+            android:layout_weight="2"
+            android:gravity="top"
+            android:layout_marginRight="15dp"
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
             android:inputType="textMultiLine"
             android:maxLines="20"
             android:minLines="4"
             android:scrollbars="vertical"
             android:textSize="16sp" />
+<<<<<<< HEAD
 
         <ImageView
             android:id="@+id/lamp"
@@ -253,6 +264,8 @@
             android:layout_weight="1"
             android:layout_marginRight="15dp"
             android:src="@mipmap/lamp1"/>
+=======
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
     </LinearLayout>
 
     <View

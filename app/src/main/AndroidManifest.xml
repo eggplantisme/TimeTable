@@ -5,17 +5,38 @@
     <uses-sdk android:minSdkVersion="22"/>
     <application
         android:allowBackup="true"
+<<<<<<< HEAD
         android:icon="@drawable/logo"
+=======
+<<<<<<< HEAD
+        android:icon="@drawable/logo"
+=======
+        android:icon="@mipmap/ic_launcher"
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <activity
+<<<<<<< HEAD
             android:name=".WelcomeActivity"
+=======
+<<<<<<< HEAD
+            android:name=".WelcomeActivity"
+=======
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -27,6 +48,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
+<<<<<<< HEAD
+=======
+=======
+
+                <category android:name="android.intent.category.LAUNCHER" />
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
             </intent-filter>
         </activity>
         <activity
@@ -34,6 +62,13 @@
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -42,6 +77,13 @@
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -51,6 +93,13 @@
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 134f2990a84c895fd675287b8cc4a3659823bca6
+>>>>>>> b80dfc5723959d4f4fba1ff8a7c9cace2f8cb526
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
