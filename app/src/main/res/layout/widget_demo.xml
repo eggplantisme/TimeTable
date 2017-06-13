@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90FCFAEF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#90FCFAEF"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/arrow_prev"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/arrow_next"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90FCFAEF"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ddl_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                android:background="#00FCFAEF"
+                android:text="content"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/ddl_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:background="#00FCFAEF"
+                android:text="class"
+                android:textColor="#696969"
+                android:textSize="10sp"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ddl_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:background="#00FCFAEF"
+            android:text="2017-01-01"
+            android:textColor="#5568bc"
+            android:textSize="10sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>
