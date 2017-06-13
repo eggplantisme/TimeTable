@@ -245,7 +245,6 @@
             android:minLines="4"
             android:scrollbars="vertical"
             android:textSize="16sp" />
-
         <ImageView
             android:id="@+id/lamp"
             android:layout_width="0dp"

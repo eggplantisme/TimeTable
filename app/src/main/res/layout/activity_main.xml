@@ -7,6 +7,7 @@
     tools:context="com.example.admin.timetable.MainActivity"
     android:background="#FFFFFF">
 
+
     <!--TextView
         android:layout_width="match_parent"
         android:text="Course Schedule"

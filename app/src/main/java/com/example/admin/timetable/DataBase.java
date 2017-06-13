@@ -20,6 +20,7 @@ public class DataBase extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String CREATE_TABLE = "CREATE TABLE if not exists " + TABLE_NAME
                 + " (name TEXT, teacher TEXT, email_ftp TEXT, week int, start int, end int, address TEXT, ddl TEXT, ddl_time TEXT, lamp int)";
+
         sqLiteDatabase.execSQL(CREATE_TABLE);
     }
     @Override
@@ -81,7 +82,9 @@ public class DataBase extends SQLiteOpenHelper {
         cv.put("address", course.getAddress());
         cv.put("ddl", course.getDdl());
         cv.put("ddl_time", course.getDdl_time());
+
         cv.put("lamp", course.getLamp());
+
         String whereClause = "week = ? and start = ?";
         String[] whereArgs = {course.getWeek() + "", course.getStart() + ""};
         db.update(TABLE_NAME, cv, whereClause, whereArgs);

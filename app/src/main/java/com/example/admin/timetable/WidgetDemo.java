@@ -95,7 +95,6 @@ public class WidgetDemo  extends AppWidgetProvider {
         views.setTextViewText(R.id.ddl_content, ddlContent);
         views.setTextViewText(R.id.ddl_class, ddlClass);
         views.setTextViewText(R.id.ddl_time, ddlTime);
-
         if (manager != null) {
             manager.updateAppWidget(manager.getAppWidgetIds(cn), views);
         }

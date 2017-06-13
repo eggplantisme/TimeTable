@@ -108,4 +108,5 @@ public class Course implements Serializable {
     public void setLamp(int lamp) {
         this.lamp = lamp;
     }
+
 }

@@ -25,7 +25,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import java.util.Calendar;
-
 public class MainActivity extends AppCompatActivity {
     private int gridHeight, gridWidth;
     private RelativeLayout layout;
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     public Handler handler;
     static public DataBase dataBase;
     static public Vibrator vibrator;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

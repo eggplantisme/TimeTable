@@ -5,7 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.database.sqlite.SQLiteDatabase;
+
 import android.graphics.Bitmap;
+
+import android.graphics.Bitmap;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
@@ -17,6 +21,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+
+import android.widget.ImageView;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,6 +43,7 @@ public class DetailActivity extends AppCompatActivity {
     TextView endTime;
     Button timer;
     ImageView lamp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +59,6 @@ public class DetailActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         ddl = (TextView)findViewById(R.id.ddl);
         endTime = (TextView)findViewById(R.id.endDateTime);
-
         lamp = (ImageView) findViewById(R.id.lamp);
 
 
